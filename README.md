@@ -88,4 +88,11 @@ Use **eval.py** to obtain the scores, and it also supports maj1@K.
 | Group Inference   | 8        | 8   | 8         |
 
 # Citation
-To be appended.
+@misc{yuan2023scaling,
+      title={Scaling Relationship on Learning Mathematical Reasoning with Large Language Models}, 
+      author={Zheng Yuan and Hongyi Yuan and Chengpeng Li and Guanting Dong and Chuanqi Tan and Chang Zhou},
+      year={2023},
+      eprint={2308.01825},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
