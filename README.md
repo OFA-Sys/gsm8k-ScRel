@@ -1,4 +1,6 @@
 # Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
+[Arxiv](https://arxiv.org/abs/2308.01825)
+
 The code and data used for reproducing results of *Scaling Relationship on Learning Mathematical Reasoning with Large Language Models*.
 
 | Setting    | 7B       | 7B-2     | 13B      | 13B-2    | 33B      | 65B      | 70B-2    |
