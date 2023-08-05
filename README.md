@@ -91,7 +91,7 @@ Use **eval.py** to obtain the scores, and it also supports maj1@K.
 
 # Checkpoints
 
-We first release [OFA-Sys/gsm8k-rft-llama7b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-u13b) on huggingface, we will release more if possible.
+We first release [OFA-Sys/gsm8k-rft-llama7b-sample100](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-sample100) and [OFA-Sys/gsm8k-rft-llama7b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-u13b) on huggingface, we will release more if possible.
 
 # Citation
 ```
