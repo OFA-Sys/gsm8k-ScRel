@@ -266,7 +266,6 @@ def train():
     model = transformers.AutoModelForCausalLM.from_pretrained(
         model_args.model_name_or_path,
         cache_dir=training_args.cache_dir,
-        # use_auth_token='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',
         torch_dtype=torch.bfloat16
     )
 
