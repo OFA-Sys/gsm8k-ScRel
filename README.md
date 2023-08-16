@@ -93,7 +93,11 @@ Use **eval.py** to obtain the scores, and it also supports maj1@K.
 
 # Checkpoints
 
-We first release [OFA-Sys/gsm8k-rft-llama7b-sample100](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-sample100) and [OFA-Sys/gsm8k-rft-llama7b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-u13b) on huggingface, we will release more if possible.
+|                   | 7B  | 7B2 | 13B | 13B2 |
+| ----------------- | -------- | --- | --------- |--------- |
+| RFT k = 100 | [OFA-Sys/gsm8k-rft-llama7b-sample100](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-sample100) | | | |
+| RFT U13B | [OFA-Sys/gsm8k-rft-llama7b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-u13b) | [OFA-Sys/gsm8k-rft-llama7b2-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b2-u13b) | [OFA-Sys/gsm8k-rft-llama13b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b-u13b) | [OFA-Sys/gsm8k-rft-llama13b2-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b2-u13b) |
+
 
 # Citation
 ```
