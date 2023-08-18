@@ -93,10 +93,11 @@ Use **eval.py** to obtain the scores, and it also supports maj1@K.
 
 # Checkpoints
 
-|                   | 7B  | 7B2 | 13B | 13B2 |
-| ----------------- | -------- | --- | --------- |--------- |
+|                   | 7B  | 7B2 | 13B | 13B2 | 33B|
+| ----------------- | -------- | --- | --------- |--------- |--------- |
 | RFT k = 100 | [OFA-Sys/gsm8k-rft-llama7b-sample100](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-sample100) | | | |
 | RFT U13B | [OFA-Sys/gsm8k-rft-llama7b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-u13b) | [OFA-Sys/gsm8k-rft-llama7b2-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b2-u13b) | [OFA-Sys/gsm8k-rft-llama13b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b-u13b) | [OFA-Sys/gsm8k-rft-llama13b2-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b2-u13b) |
+| RFT U33B | ||||[OFA-Sys/gsm8k-rft-llama33b-u33b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b-u13b)|
 
 
 # Citation
