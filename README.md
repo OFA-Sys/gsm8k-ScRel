@@ -113,3 +113,14 @@ Use **eval.py** to obtain the scores, and it also supports maj1@K.
       primaryClass={cs.CL}
 }
 ```
+
+```
+@misc{li2023query,
+      title={Query and Response Augmentation Cannot Help Out-of-domain Math Reasoning Generalization}, 
+      author={Chengpeng Li and Zheng Yuan and Guanting Dong and Keming Lu and Jiancan Wu and Chuanqi Tan and Xiang Wang and Chang Zhou},
+      year={2023},
+      eprint={2310.05506},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
