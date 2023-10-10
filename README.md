@@ -21,7 +21,7 @@ Metrics are maj1@1 and maj1@100.
 
 # SFT Training
 
-If you cannot reproduce our results, please try using Tranformers <= 4.29 and test with batch size=1.
+If you cannot reproduce our results, please try using Transformers <= 4.29 and test with batch size=1.
 
 Use **train_xb.sh** for fine-tuning LLaMA and LLaMA-2.
 ```bash
