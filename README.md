@@ -1,8 +1,8 @@
 # Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
-[Arxiv](https://arxiv.org/abs/2308.01825)
 
-The code and data used for reproducing results of *Scaling Relationship on Learning Mathematical Reasoning with Large Language Models*.
+The code and data used for reproducing results of [Scaling Relationship on Learning Mathematical Reasoning with Large Language Models](https://arxiv.org/abs/2308.01825) and [Query and Response Augmentation Cannot Help Out-of-domain Math Reasoning Generalization](https://arxiv.org/abs/2310.05506).
 
+- [2023.10] We have a new paper that investigates the scaling of in-domain and out-of-domain generalization on augmented math problems.
 - [2023.9] Paper updated with more details on 65B and 70B models.
 
 | Setting    | 7B       | 7B-2     | 13B      | 13B-2    | 33B      | 65B      | 70B-2    |
