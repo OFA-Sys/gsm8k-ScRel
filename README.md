@@ -101,6 +101,23 @@ Use **eval.py** to obtain the scores, and it also supports maj1@K.
 | RFT U13B | [OFA-Sys/gsm8k-rft-llama7b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b-u13b) | [OFA-Sys/gsm8k-rft-llama7b2-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama7b2-u13b) | [OFA-Sys/gsm8k-rft-llama13b-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b-u13b) | [OFA-Sys/gsm8k-rft-llama13b2-u13b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b2-u13b) |
 | RFT U33B | ||||[OFA-Sys/gsm8k-rft-llama33b-u33b](https://huggingface.co/OFA-Sys/gsm8k-rft-llama13b-u13b)|
 
+# Query and Response Augmentation Cannot Help Out-of-domain Math Reasoning Generalization
+# Model Details
+MuggleMATH is fully fine-tuned on the AugGSM8K and AugMATH datasets and based on the LLaMA-2 Models. 
+# Model Usage
+prompting template:
+'''
+"Below is an instruction that describes a task. " "Write a response that appropriately completes the request.\n\n" "### Instruction:\n{instruction}\n\n### Response:"
+'''
+We recommend using vllm to accelerate inference.
+# Experiment
+
+| Model             | GSM8K | MATH |
+|-------------------|-------|------|
+| MuggleMATH-7B     | 69.8  | 25.8 |
+| MuggleMATH-13B    | 74.3  | 30.7 |
+| MuggleMATH-70B    | 82.5  | 42.1 |
+
 
 # Citation
 ```
