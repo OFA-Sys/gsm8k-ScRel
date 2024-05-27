@@ -103,7 +103,7 @@ Use **eval.py** to obtain the scores, and it also supports maj1@K.
 
 # Query and Response Augmentation Cannot Help Out-of-domain Math Reasoning Generalization
 # Model Details
-MuggleMATH is fully fine-tuned on the AugGSM8K and AugMATH datasets and based on the LLaMA-2 Models. 
+MuggleMATH is fully fine-tuned on the AugGSM8K and AugMATH datasets(https://github.com/OFA-Sys/gsm8k-ScRel/tree/main/data/MuggleMATH) and based on the LLaMA-2 Models. 
 # Model Usage
 prompting template:
 '''
@@ -117,6 +117,13 @@ We recommend using vllm to accelerate inference.
 | MuggleMATH-7B     | 69.8  | 25.8 |
 | MuggleMATH-13B    | 74.3  | 30.7 |
 | MuggleMATH-70B    | 82.5  | 42.1 |
+
+# Checkpoints
+| Model             | Checkpoints |
+|-------------------|-------|
+| MuggleMATH-7B     | https://huggingface.co/OFA-Sys/MuggleMath_7B  |
+| MuggleMATH-13B    | https://huggingface.co/OFA-Sys/MuggleMath_13B |
+| MuggleMATH-70B    | https://huggingface.co/OFA-Sys/MuggleMath_70B  |
 
 
 # Citation
