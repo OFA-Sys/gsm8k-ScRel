@@ -116,7 +116,7 @@ We recommend using vllm to accelerate inference.
 |-------------------|-------|------|
 | MuggleMATH-7B     | 69.8  | 25.8 |
 | MuggleMATH-13B    | 74.3  | 30.7 |
-| MuggleMATH-70B    | 82.5  | 42.1 |
+| MuggleMATH-70B    | 82.5  | 35.6 |
 
 # Checkpoints
 | Model             | Checkpoints |
