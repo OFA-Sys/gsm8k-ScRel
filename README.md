@@ -139,12 +139,10 @@ We recommend using vllm to accelerate inference.
 ```
 
 ```
-@misc{li2023query,
-      title={Query and Response Augmentation Cannot Help Out-of-domain Math Reasoning Generalization}, 
-      author={Chengpeng Li and Zheng Yuan and Guanting Dong and Keming Lu and Jiancan Wu and Chuanqi Tan and Xiang Wang and Chang Zhou},
-      year={2023},
-      eprint={2310.05506},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{li2023query,
+  title={Query and response augmentation cannot help out-of-domain math reasoning generalization},
+  author={Li, Chengpeng and Yuan, Zheng and Dong, Guanting and Lu, Keming and Wu, Jiancan and Tan, Chuanqi and Wang, Xiang and Zhou, Chang},
+  journal={arXiv preprint arXiv:2310.05506},
+  year={2023}
 }
 ```
